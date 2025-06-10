@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { useSearchParams } from "react-router-dom";
 import Text from "../components/Text";
 import { toJpeg } from 'html-to-image';
- import download from 'downloadjs';
+ import { download } from 'downloadjs';
 
 const EditPage = () => {
   const [params] = useSearchParams();
